@@ -7,20 +7,20 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    color: #000000;
-    background: #a49e9e;
+    color: #dda3a3;
+    background: #676262;
     line-height: 1.6;
 }
 
 /* Header */
 header {
-    background: #121212;
-    color: #fff;
+    background: #777070;
+    color: #e6781e;
     padding: 15px 0;
     position: sticky;
     top: 0;
     z-index: 1000;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 2px 5px rgb(68, 2, 2);
 }
 
 header .container {
@@ -44,22 +44,22 @@ header nav ul {
 }
 
 header nav a {
-    color: #fff;
+    color: #f2923e;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
 }
 
 header nav a:hover {
-    color: #f0b300;
+    color: #752bff;
 }
 
 /* Hero Section */
 .hero {
     /* background: url('SRL.jpg') no-repeat center center/cover; */
     text-align: center;
-    color: #fff;
-    padding: 200px 20px;
+    color: #f2862e;
+    padding: 50px 5px;
     position: relative;
 }
 
@@ -70,7 +70,7 @@ header nav a:hover {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgb(101, 95, 95);
     z-index: 1;
 }
 
@@ -91,8 +91,8 @@ header nav a:hover {
 }
 
 .hero .btn {
-    background: #f0b300;
-    color: #000;
+    background: #ed8a21;
+    color: #070401;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
@@ -101,12 +101,12 @@ header nav a:hover {
 }
 
 .hero .btn:hover {
-    background: #d89a00;
+    background: #f1f1f0;
 }
 
 /* Services Section */
 .services {
-    background: #1c1c1c;
+    background: #655e5e;
     padding: 60px 20px;
     text-align: center;
 }
@@ -114,7 +114,7 @@ header nav a:hover {
 .services h2 {
     font-size: 2.5em;
     margin-bottom: 20px;
-    color: #f0b300;
+    color: #ed8e22;
     text-transform: uppercase;
 }
 
@@ -126,18 +126,18 @@ header nav a:hover {
 }
 
 .service-item {
-    background: #2b2b2b;
+    background: hsl(0, 3%, 16%);
     border-radius: 8px;
     padding: 20px;
     text-align: center;
-    color: #e0e0e0;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    box-shadow: 0 20px 15px rgb(57, 2, 2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .service-item:hover {
     transform: scale(1.05);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.7);
+    box-shadow: 0 6px 12px rgb(255, 147, 147);
 }
 
 .service-item img {
@@ -149,12 +149,12 @@ header nav a:hover {
 .service-item h3 {
     font-size: 1.5em;
     margin-bottom: 10px;
-    color: #f0b300;
+    color: #e47c1b;
 }
 
 /* Testimonials Section */
 .testimonials {
-    background: #121212;
+    background: #686363;
     padding: 60px 20px;
     text-align: center;
 }
@@ -162,7 +162,7 @@ header nav a:hover {
 .testimonials h2 {
     font-size: 2.5em;
     margin-bottom: 20px;
-    color: #f0b300;
+    color: #eb741a;
 }
 
 .testimonial-grid {
@@ -172,17 +172,17 @@ header nav a:hover {
 }
 
 .testimonial-item {
-    background: #2b2b2b;
+    background: #555454;
     padding: 20px;
     border-radius: 8px;
     color: #e0e0e0;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 20px 20px rgb(56, 1, 1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .testimonial-item:hover {
     transform: translateY(-5px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.7);
+    box-shadow: 0 6px 12px rgb(255, 150, 150);
 }
 
 .testimonial-item p {
@@ -193,12 +193,12 @@ header nav a:hover {
 .testimonial-item h3 {
     font-size: 1.2em;
     font-weight: bold;
-    color: #f0b300;
+    color: #e15503;
 }
 
 /* About Section */
 .about {
-    background: #1c1c1c;
+    background: #686262;
     padding: 60px 20px;
     text-align: center;
 }
@@ -206,21 +206,21 @@ header nav a:hover {
 .about h2 {
     font-size: 2.5em;
     margin-bottom: 20px;
-    color: #f0b300;
+    color: #e16218;
     text-transform: uppercase;
 }
 
 .about p {
     font-size: 1.1em;
     line-height: 1.8;
-    color: #e0e0e0;
+    color: #000000c8;
     max-width: 800px;
     margin: 0 auto;
 }
 
 /* Contact Section */
 .contact {
-    background: #121212;
+    background: #615c5c;
     padding: 60px 20px;
     text-align: center;
 }
@@ -228,7 +228,7 @@ header nav a:hover {
 .contact h2 {
     font-size: 2.5em;
     margin-bottom: 20px;
-    color: #f0b300;
+    color: #ef6e1e;
 }
 
 .contact form {
@@ -251,18 +251,18 @@ header nav a:hover {
 
 .contact input,
 .contact textarea {
-    background: #2b2b2b;
-    color: #e0e0e0;
+    background: #957b7b;
+    color: #000000;
     outline: none;
 }
 
 .contact input::placeholder,
 .contact textarea::placeholder {
-    color: #a0a0a0;
+    color: #000000;
 }
 
 .contact button {
-    background: #f0b300;
+    background: #e87223;
     color: #000;
     font-weight: bold;
     cursor: pointer;
@@ -270,7 +270,7 @@ header nav a:hover {
 }
 
 .contact button:hover {
-    background: #d89a00;
+    background: #51f7de;
 }
 
 /* Footer */

@@ -74,7 +74,7 @@ nav a:hover {
 .who-we-are h2 {
   font-size: 2rem;
   margin-bottom: 20px;
-  color: #460c0c;
+  color: #0f0b0b;
 }
 
 .details {
@@ -84,24 +84,24 @@ nav a:hover {
 }
 
 .card {
-  background: #2f2f2f;
+  background: #5f5e5e;
   border: 1px solid #46121293;
   border-radius: 8px;
   padding: 20px;
-  box-shadow: 0 10px 6px rgba(48, 2, 2, 0.62);
+  box-shadow: 0 10px 6px rgb(56, 1, 1);
   text-align: center;
   color: #878484;
 }
 
 .card h3 {
-  color: #000000;
+  color: #070707;
   margin-bottom: 10px;
 }
 
 .card ul,
 .card p {
   font-size: 0.95rem;
-  color: #ffffff;
+  color: #fefefe;
   line-height: 1.4;
 }
 
@@ -119,13 +119,13 @@ nav a:hover {
 .mission,
 .vision {
   flex: 1;
-  background: #000000;
+  background: #ad9595;
   color: #f1ad00;
   border: 1px solid #5a0101ab;
   padding: 20px;
   text-align: center;
   border-radius: 8px;
-  box-shadow: 0 3px 6px rgba(55, 2, 2, 0.727);
+  box-shadow: 0 3px 6px rgb(95, 2, 2);
 }
 
 /* Team Section */
@@ -149,13 +149,13 @@ nav a:hover {
 }
 
 .member {
-  background: #1a1a1a;
+  background: #242424;
   border: 1px solid #440101;
   border-radius: 8px;
   padding: 20px;
   width: 250px;
   text-align: center;
-  box-shadow: 0 4px 6px rgba(255, 1, 1, 0.696);
+  box-shadow: 0 4px 6px rgb(89, 2, 2);
 }
 
 .member img {
@@ -167,7 +167,7 @@ nav a:hover {
 
 .member h4 {
   margin: 10px 0;
-  color: #b4b4b4;
+  color: #a29c9c;
 }
 
 /* Footer */
